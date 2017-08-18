@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.root.myapplication1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Camps"
+            android:label="Camps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PreviousCamps"
+            android:label="Previous Camps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Camps" />
+        </activity>
+        <activity
+            android:name=".UpcomingCamps"
+            android:label="Upcoming Camps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Camps" />
+        </activity>
+        <activity
+            android:name=".GreekCampus"
+            android:label="@string/title_activity_greek_campus"
+            android:parentActivityName=".PreviousCamps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.myapplication1.PreviousCamps" />
+        </activity>
+        <activity
+            android:name=".Greek2"
+            android:label="@string/title_activity_greek2"
+            android:parentActivityName=".PreviousCamps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.myapplication1.PreviousCamps" />
+        </activity>
+        <activity
+            android:name=".Zewail"
+            android:label="@string/title_activity_zewail"
+            android:parentActivityName=".PreviousCamps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.myapplication1.PreviousCamps" />
+        </activity>
+        <activity
+            android:name=".Gulf"
+            android:label="@string/title_activity_gulf"
+            android:parentActivityName=".PreviousCamps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.myapplication1.PreviousCamps" />
+        </activity>
+        <activity
+            android:name=".AOU"
+            android:label="@string/title_activity_aou"
+            android:parentActivityName=".PreviousCamps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.myapplication1.PreviousCamps" />
+        </activity>
+        <activity
+            android:name=".Test1"
+            android:parentActivityName=".UpcomingCamps"
+            android:label="Test1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.myapplication1.UpcomingCamps" />
+        </activity>
+        <activity
+            android:name=".Test2"
+            android:parentActivityName=".UpcomingCamps"
+            android:label="Test2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.root.myapplication1.UpcomingCamps" />
+        </activity>
+        <activity android:name=".Greek2Video" />
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value="com.example.root.myapplication1.Greek2"/> -->
+
+        <activity android:name=".GreekVideo" />
+        <activity android:name=".ZewailVideo" />
+        <activity android:name=".GulfVideo" />
+        <activity android:name=".Contact"
+            android:label="Contact Us">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

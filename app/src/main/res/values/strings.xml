@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">My Application1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_greek_campus">GreekCampus</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="greek_info_text" id="@+id/info_text">Place: Greek Campus\nLevel: 2\n Date: July 2016\nContent: Programming Language: C/C++\n
+
+Softskills Content:\n
+- Interview Tips for Multinational companies \n
+- Scholarships and Postgraduate studies\n
+- Living abroad as a software engineer\n
+
+Technical Content: (Designed for ACM-ICPC)\n
+- Search Algorithms: Complete Search (Brute Force)\n
+- Sorting Algorithms: Basic Sorting Algorithms\n
+- Search Algorithms: Binary Search\n
+- Search Algorithms: Ternary Search\n
+- Basic Data Structures: Structs and Classes\n
+- Sorting Algorithms: Heap Sort, Quick Sort, Built-in Sort Function from &lt;algorithm&gt; and how to make Compare Functions (CMP).\n
+- Basic Data Structures: Maps and Hashmaps\n
+- Basic Data Structures: Sets and Multisets\n
+- Basic Data Structures: Stacks, Queues and Deque\n
+- Memory and Time Complexity Calculation\n
+- Simulation\n
+- Tips and Tricks: Flags, Multi-flags, visited arrays….\n
+- Tips and Tricks: String Parsing\n
+- Math and Number Theory: Modular Arithmetic\n
+- Math and Number Theory: Check Prime\n
+- Math and Number Theory: Prime Factorization\n
+- Math and Number Theory: Sieve of Eratosthenes\n
+- Math and Number Theory: Base Conversion\n
+- Math and Number Theory: GCD and LCM\n
+- Tips and Tricks: Cumulative Sum\n
+- Tips and Tricks: Pigeonhole Principle\n
+- Tips and Tricks: Substring Palindromes\n
+- Combinatorics: Combinations and Permutations\n
+- Search Algorithms: Meet in the Middle\n
+- Recursion: Concept\n
+- Recursion: Applications, Search, Divide and Conquer, Flood Fills,\n
+- Dynamic Programming: Top-Down and Bottom-Up approaches\n
+- Dynamic Programming: Well-known Problems\n
+- Dynamic Programming: Advanced Problems\n
+- Game Theory: Optimal Playing Problems (DP)\n
+- Graph Theory: Graph Definition and Types.\n
+- Graph Theory: Graph Representation and Storage\n
+- Graph Theory: DFS and BFS on graph.\n
+- Graph Theory: Flood Fill on graph.\n
+- Shortest Path: Floyd-Warshall Algorithm\n
+- Shortest Path: Dijkstra Algorithm\n
+- Shortest Path: Bellman-Ford Algorithm\n
+- Shortest Path: Path Reconstruction\n
+- Graph Theory: Disjoint Sets\n
+- Graph Theory: Minimum Spanning Tree (Kruskal and Prim)\n
+- Tips and Tricks: Diameter of a Tree\n
+- Sorting Algorithms: Topological Sort\n
+- Tips and Tricks: Maximum Subarray Problem (Kadane\’s Algorithm)\n
+- Tips and Tricks: All Nearest Smaller Values Algorithm\n
+- Tips and Tricks: Inclusion-Exclusion Principle\n
+- Tips and Tricks: 2D Cumulative Sum\n
+- Advanced Graph Theory: Euler Tours and Euler Circuits\n
+- Advanced Graph Theory: Floyd-Warshall Algorithm Applications\n
+- Advanced Graph Theory: Dijkstra\'s Algorithm Applications\n
+- Advanced Graph Theory: Bellman-Ford Algorithm Applications\n
+- Advanced Graph Theory: System of Difference Constraints\n
+- Advanced Data Structures: Trie Tree\n
+- Advanced Data Structures: Segment Tree\n
+- Advanced Data Structures: Binary Indexed Tree\n
+- Tips and Tricks: Ranking and Graph Ranking\n
+- Advanced Graph Theory: Strongly Connected Components (Tarjan\’s Algorithm and Kosaraju\’s Algorithm)\n
+- Advanced Graph Theory: Articulation Points, Bridges and Bi-Connected Components\n
+- Advanced Graph Theory: 2-Sat\n
+</string>
+    <string name="greek2_info_text">
+    Structured Programming using C++ Programming Language
+
+This course is designed for students with no prior programming experience to understand computer programming as professionals. The course develops algorithmic design and problem solving using structured programming techniques and the C++ programming language. Programming emphasis will be on block structures and stepwise refinement of algorithms. Language syntax, data types, and control structures are presented. Data structures considered include one- and two-dimensional arrays. Search and sort algorithms are developed. Modular coding, parameter passage, correct use of local and global variables, and debugging techniques are stressed.
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_greek2">Greek2</string>
+    <string name="title_activity_zewail">Zewail</string>
+    <string name="zewail_text">
+        Level: 1\n
+        Place: Zewail City 6th of October\n
+        5 days 8 hours each\n
+        Date: January 2017
+    </string>
+    <string name="title_activity_gulf">Gulf</string>
+    <string name="gulf_text">
+        Level: 1\n
+        Place: Gulf University\n
+        Date: February 2017
+    </string>
+    <string name="title_activity_aou">AOU</string>
+    <string name="aou_text">
+        Level: 1\n
+        Place: The Arab Open University Competitive programming camp\n
+        Date: January 2017
+    </string>
+    <string name="test1_text">
+        Place: 6th of October City\n
+        Date: February 2018\n
+        Level: 1\n
+        Content:\n
+        -COnditions\n
+        -Loops\n
+        -Greedy Algorithms\n
+        -Dynamic Programming\n
+        -Knapsack\n\n
+        Payment Method:\n
+        CIB Bank Account number **************\n\n
+        Please, After registering and payment, Send a photo of the invoice to the Coach in a private message (His account is in the Contact Us page)\n
+        We Hope to see you soon :)\n
+    </string>
+    <string name="test2_text">
+        Place: Germany\n
+        Date: July 2018\n
+        Level: 2\n
+        Content:\n
+        -COnditions\n
+        -Loops\n
+        -Greedy Algorithms\n
+        -Dynamic Programming\n
+        -Knapsack\n\n
+        Payment Method:\n
+        CIB Bank Account number **************\n\n
+        Please, After registering and payment, Send a photo of the invoice to the Coach in a private message (His account is in the Contact Us page)\n
+        We Hope to see you soon :)\n
+    </string>
+</resources>
